@@ -53,7 +53,7 @@ float f4(float x, int intensity);
   
   auto end = std::chrono::steady_clock::now();
   std::chrono::duration<double> t = end-start;
-  std::cout << integral << "\n";
+  std::cout << intergral << "\n";
   std::cerr << t.count() <<" seconds\n";
 
   
