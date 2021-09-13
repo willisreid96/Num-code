@@ -35,16 +35,16 @@ float f4(float x, int intensity);
   for(int c=0; c<n-1; c++) {
     switch (id) {
     case 1:
-      intergral += f1(a+(c+.5)*func, c) * func;
+      intergral += f1(a+(c+.5)*func, i) * func;
       break;
     case 2:
-      intergral += f2(a+(c+.5)*func, c) * func;
+      intergral += f2(a+(c+.5)*func, i) * func;
       break;
     case 3:
-      intergral += f3(a+(c+.5)*func, c) * func;
+      intergral += f3(a+(c+.5)*func, i) * func;
       break;
     case 4:
-      intergral += f4(a+(c+.5)*func, c) * func;
+      intergral += f4(a+(c+.5)*func, i) * func;
       break;
     default:
       break;
