@@ -31,6 +31,7 @@ float f4(float x, int intensity);
   int i = atoi(argv[5]);
   float intergral = 0.0;
   float func = (b-a)/n;
+    auto start = std::chrono::steady_clock::now();
   for(int c=0; c<n-1; c++) {
     switch (id) {
     case 1:
