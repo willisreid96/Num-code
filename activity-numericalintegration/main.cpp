@@ -32,7 +32,7 @@ float f4(float x, int intensity);
   float intergral = 0.0;
   float func = (b-a)/n;
     auto start = std::chrono::steady_clock::now();
-  for(int c=0; c<n-1; c++) {
+  for(int c=0; c<n; c++) {
     switch (id) {
     case 1:
       intergral += f1(a+(c+.5)*func, i) * func;
